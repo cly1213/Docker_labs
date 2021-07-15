@@ -1,0 +1,5 @@
+docker system prune -f
+
+docker image prune -a
+
+docker container run --rm -it ipinfo-cmd-new ipinfo 8.8.8.8
