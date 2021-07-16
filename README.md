@@ -5,3 +5,7 @@ nginx
 busybox
 
 flask
+
+cron
+
+MySQL

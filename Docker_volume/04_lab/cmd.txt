@@ -1,0 +1,3 @@
+docker pull gcc:9.4
+
+docker container run -it -v $(pwd):/root gcc:9.4
