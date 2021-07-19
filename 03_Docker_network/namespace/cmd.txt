@@ -1,0 +1,5 @@
+sudo brctl addbr mydocker0
+
+brctl show
+
+

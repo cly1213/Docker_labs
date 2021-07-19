@@ -1,0 +1,8 @@
+$ docker container run -d --rm --name web -p 8080:80 nginx
+
+$ docker container inspect --format '{{.NetworkSettings.IPAddress}}' web
+$ docker container run -d --rm --name client busybox /bin/sh -c "while true; do sleep 3600; done"
+$ docker container inspect --format '{{.NetworkSettings.IPAddress}}' client
+$ docker container exec -it client wget http://172.17.0.2
+
+ sudo iptables -t nat -nvxL

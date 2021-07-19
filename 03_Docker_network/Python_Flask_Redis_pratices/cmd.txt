@@ -1,0 +1,7 @@
+docker image pull redis
+
+docker image build -t flask-demo .
+
+docker image ls
+
+

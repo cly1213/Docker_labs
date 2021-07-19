@@ -9,3 +9,5 @@ flask
 cron
 
 MySQL
+
+Redis

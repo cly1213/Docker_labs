@@ -1,6 +1,6 @@
 # Docker_network
 
-## command
+## command tools
 ```
 ping
 
@@ -9,7 +9,29 @@ telnet
 traceroute/tracepath(linux)
 
 curl
+
+wget
+
+ip addr
+
+brctl show
+
+ip route
+
+sudo iptables --list -t nat
 ```
+NAT
+
+Port Forwarding
+
+https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile
+
+```
+EXPOSE 80
+``
+
+
+
 
 ref:
 
