@@ -20,7 +20,7 @@ ip route
 
 sudo iptables --list -t nat
 ```
-NAT
+NAT 
 
 Port Forwarding
 
@@ -28,10 +28,7 @@ https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile
 
 ```
 EXPOSE 80
-``
-
-
-
+```
 
 ref:
 
