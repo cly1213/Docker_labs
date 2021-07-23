@@ -18,7 +18,7 @@ Redis
 
 ## Docker Compose
 
-<img src="https://github.com/cly1213/Docker-labs/blob/main/img/docker-compose.jpeg"/>
+<img src="https://github.com/cly1213/Docker-labs/blob/main/img/docker-compose.png"/>
 
 Good practice: Example Voting App
 
