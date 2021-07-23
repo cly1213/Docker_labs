@@ -20,6 +20,6 @@ Redis
 
 <img src="https://github.com/cly1213/Docker-labs/blob/main/img/docker-compose.jpeg"/>
 
-Good example: Example Voting App
+Good practice: Example Voting App
 
 https://github.com/dockersamples/example-voting-app
