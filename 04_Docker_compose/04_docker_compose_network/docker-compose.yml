@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  box1: 
+    image: my-netbox:latest
+    command: /bin/sh -c "while true; do sleep 3600; done"
+    networks:
+      - mynetwork1
+ 
+  box2:
+    image: my-netbox:latest
+    command: /bin/sh -c "while true; do sleep 3600; done"
+    networks:
+      - mynetwork1
+      - mynetwork2
+
+networks:
+  mynetwork1:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.238.0/24"
+  mynetwork2:
+    ipam:
+      driver: default
