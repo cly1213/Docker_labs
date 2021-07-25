@@ -4,17 +4,7 @@
 
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/docker.png"/>
 
-nginx
-
-busybox
-
-flask
-
-cron
-
-MySQL
-
-Redis
+nginx, busybox, flask, cron, MySQL, Redis
 
 ## Docker Compose
 
@@ -27,3 +17,5 @@ https://github.com/dockersamples/example-voting-app
 ## Docker Swarm
 
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/docker-swarm.png"/>
+
+But K8s is a leader in the container orchestration field.
