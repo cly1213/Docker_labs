@@ -91,6 +91,18 @@ vagrant@swarm-worker1:~$ docker container exec -it f4f36a887f55 sh
        valid_lft forever preferred_lft forever
 / #
 
+## swarm overlay network
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/overlay.png"/>
 
+## swarm service
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/swarm-ingress-service.png"/>
+
+## swarm ingress network
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/routing-mesh.png"/>
+
+## swarm load balancer
+
+VIP: Virtual IP
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/vip.png"/>
 ```
 
