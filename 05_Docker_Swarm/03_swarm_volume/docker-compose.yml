@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/mysql_pass
+    secrets:
+      - mysql_pass
+    volumes:
+      - data:/var/lib/mysql
+
+volumes:
+  data:
+
+secrets:
+  mysql_pass:
+    file: mysql_pass.txt
