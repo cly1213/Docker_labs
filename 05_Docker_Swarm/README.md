@@ -90,7 +90,7 @@ vagrant@swarm-worker1:~$ docker container exec -it f4f36a887f55 sh
     inet 172.18.0.3/16 brd 172.18.255.255 scope global eth1
        valid_lft forever preferred_lft forever
 / #
-
+```
 ## swarm overlay network
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/overlay.png"/>
 
@@ -104,5 +104,5 @@ vagrant@swarm-worker1:~$ docker container exec -it f4f36a887f55 sh
 
 VIP: Virtual IP
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/vip.png"/>
-```
+
 
