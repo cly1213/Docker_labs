@@ -1,8 +1,6 @@
 # Podman
 https://podman.io/
 
-Ref:
-
 https://podman.io/getting-started/installation
 
 ```
@@ -44,8 +42,8 @@ podman pod rm ...
 podman container run -d --name test1 --pod demo docker.io/library/busybox 
 
 ```
-### kubernetes stop support docker?
-#### Container Runtime
+## kubernetes stop support docker?
+### Container Runtime
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/container_runtime.png"/>
 
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/docker_containerd.png"/>
