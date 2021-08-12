@@ -1,4 +1,4 @@
-# 05_Docker_swarm
+# 05_Docker_Swarm
 
 ```
 $ vagrant status
