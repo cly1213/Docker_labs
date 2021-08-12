@@ -22,6 +22,7 @@ podman --help
 ```
 
 ## Docker vs Podman
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/docker_vs_podman.png"/>
 ```
 ps -ef | grep docker
 

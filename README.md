@@ -29,5 +29,6 @@ But K8s is a leader in the container orchestration field.
 ## Podman
 <img src="https://github.com/cly1213/Docker_labs/blob/main/img/podman.png"/>
 
-### Docker vs Podman
-<img src="https://github.com/cly1213/Docker_labs/blob/main/img/docker_vs_podman.png"/>
+
+## git_container_CI/CD
+<img src="https://github.com/cly1213/Docker_labs/blob/main/img/github_dockerhub.png"/>
