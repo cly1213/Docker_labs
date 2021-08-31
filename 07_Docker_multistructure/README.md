@@ -11,3 +11,9 @@ docker buildx create --name mybuilder --use
 
 docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 -t your_image .
 ```
+
+Ref:
+
+https://github.com/docker-library/official-images/tree/master/library
+
+https://docs.docker.com/engine/reference/commandline/manifest/
