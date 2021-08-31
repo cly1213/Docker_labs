@@ -3,3 +3,11 @@
 Docker in the Linux environment needs to install [buildx](https://github.com/docker/buildx)
 
 https://docs.docker.com/buildx/working-with-buildx/
+
+```
+docker login
+
+docker buildx create --name mybuilder --use
+
+docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 -t your_image .
+```
