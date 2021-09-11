@@ -1,4 +1,8 @@
 # CI/CD
+Continuous Integration/Continuous Deployment or Continuous Delivery
+
+Github -> Marketplace -> Actions
+
 ## GitHub Actions
 https://github.com/features/actions
 
